@@ -1,0 +1,23 @@
+{
+    "name": "weihaozhu/php-jwt",
+    "description": "json web token",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weihaozhu",
+            "email": "471567032@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jwt\\": "src"
+        }
+    }
+}
